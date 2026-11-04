@@ -1,0 +1,24 @@
+# Secrets & Environment
+.env
+
+# Dataset & Hugging Face Local Cache
+.cache/
+*.parquet
+
+# MLflow & Training Artifacts
+mlruns/
+mlflow.db
+models/distilbert/*
+!models/distilbert/.gitkeep
+
+# Python / Packaging / Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
