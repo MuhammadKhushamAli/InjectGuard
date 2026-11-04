@@ -1,86 +1,69 @@
-"""Direct remote dataset streaming from Hugging Face for InjectGuard.
+"""Data preparation and streaming from Hugging Face for InjectGuard.
 
-Streams `MAlmasabi/Indirect-Prompt-Injection-BIPIA-GPT` on the fly (`streaming=True`)
-directly into the training loop without downloading the full dataset to local disk.
+Directly streams or loads prompt injection datasets from Hugging Face
+without requiring local manual downloads.
 """
 
 from __future__ import annotations
 
 import os
 from typing import Any, Iterator
+from datasets import IterableDataset, Dataset, load_dataset
 
-from datasets import IterableDataset, load_dataset
+# Public prompt injection dataset on Hugging Face (no token required)
+DEFAULT_HF_DATASET = "deepset/prompt-injections"
 
-HF_DATASET_ID = "MAlmasabi/Indirect-Prompt-Injection-BIPIA-GPT"
 
-
-def stream_dataset(
+def get_dataset(
+    dataset_name: str = DEFAULT_HF_DATASET,
     split: str = "train",
-    shuffle: bool = True,
-    seed: int = 42,
-    buffer_size: int = 1000,
+    streaming: bool = False,
     hf_token: str | None = None,
-) -> IterableDataset:
-    """Return a remote Hugging Face IterableDataset streamed over HTTP (zero disk download).
+) -> Dataset | IterableDataset:
+    """Fetch or stream a dataset directly from Hugging Face Hub.
 
     Args:
-        split: Dataset split to stream (default: "train").
-        shuffle: Whether to buffer-shuffle samples on the fly.
-        seed: Random seed for shuffling.
-        buffer_size: Buffer size for on-the-fly streaming shuffle.
-        hf_token: Optional Hugging Face token (defaults to HF_TOKEN env var).
+        dataset_name: Hugging Face dataset identifier.
+        split: Dataset split ('train', 'test', etc.).
+        streaming: If True, streams examples over HTTP on-the-fly.
+        hf_token: Optional token for gated/private datasets.
 
     Returns:
-        Hugging Face IterableDataset.
+        Hugging Face Dataset or IterableDataset.
     """
     token = hf_token or os.environ.get("HF_TOKEN")
-    ds = load_dataset(
-        HF_DATASET_ID,
+    return load_dataset(
+        dataset_name,
         split=split,
-        streaming=True,
+        streaming=streaming,
         token=token,
     )
-    if shuffle:
-        ds = ds.shuffle(seed=seed, buffer_size=buffer_size)
-    return ds
 
 
 def iter_training_batches(
-    batch_size: int = 256,
+    dataset_name: str = DEFAULT_HF_DATASET,
+    batch_size: int = 128,
     split: str = "train",
     shuffle: bool = True,
     seed: int = 42,
     buffer_size: int = 1000,
     hf_token: str | None = None,
 ) -> Iterator[dict[str, list[Any]]]:
-    """Yield batches remotely from Hugging Face directly for the training loop.
-
-    Args:
-        batch_size: Number of examples per yielded batch.
-        split: Dataset split to stream (default: "train").
-        shuffle: Whether to buffer-shuffle samples on the fly.
-        seed: Random seed for shuffling.
-        buffer_size: Buffer size for streaming shuffle.
-        hf_token: Optional Hugging Face token.
-
-    Yields:
-        Dictionary of column lists (e.g. {'context': [...], 'user_intent': [...], 'label': [...]}).
-    """
-    ds = stream_dataset(
+    """Yield streamed batches directly from Hugging Face for training/eval."""
+    ds = get_dataset(
+        dataset_name=dataset_name,
         split=split,
-        shuffle=shuffle,
-        seed=seed,
-        buffer_size=buffer_size,
+        streaming=True,
         hf_token=hf_token,
     )
+    if shuffle and hasattr(ds, "shuffle"):
+        ds = ds.shuffle(seed=seed, buffer_size=buffer_size)
     yield from ds.iter(batch_size=batch_size)
 
 
 if __name__ == "__main__":
-    print(f"Streaming dataset: {HF_DATASET_ID} (streaming=True)")
-    try:
-        sample_batch = next(iter_training_batches(batch_size=4))
-        print(f"[SUCCESS] Streamed batch keys: {list(sample_batch.keys())}")
-        print(f"Sample labels: {sample_batch.get('label')}")
-    except Exception as exc:
-        print(f"[INFO] Streaming setup verified. (Remote fetch requires HF_TOKEN or access: {exc})")
+    print(f"Connecting to Hugging Face dataset: '{DEFAULT_HF_DATASET}'...")
+    sample_batch = next(iter_training_batches(batch_size=3))
+    print("[SUCCESS] Successfully streamed sample batch:")
+    for text, label in zip(sample_batch["text"], sample_batch["label"]):
+        print(f"  - Label {label}: {text[:80]}...")
