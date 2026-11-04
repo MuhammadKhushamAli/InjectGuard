@@ -1,0 +1,220 @@
+{"id": "BENIGN_001", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #1]", "label": 0}
+{"id": "BENIGN_002", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #2]", "label": 0}
+{"id": "BENIGN_003", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #3]", "label": 0}
+{"id": "BENIGN_004", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #4]", "label": 0}
+{"id": "BENIGN_005", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #5]", "label": 0}
+{"id": "BENIGN_006", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #6]", "label": 0}
+{"id": "BENIGN_007", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #7]", "label": 0}
+{"id": "BENIGN_008", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #8]", "label": 0}
+{"id": "BENIGN_009", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #9]", "label": 0}
+{"id": "BENIGN_010", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #10]", "label": 0}
+{"id": "BENIGN_011", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #11]", "label": 0}
+{"id": "BENIGN_012", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #12]", "label": 0}
+{"id": "BENIGN_013", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #13]", "label": 0}
+{"id": "BENIGN_014", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #14]", "label": 0}
+{"id": "BENIGN_015", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #15]", "label": 0}
+{"id": "BENIGN_016", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #16]", "label": 0}
+{"id": "BENIGN_017", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #17]", "label": 0}
+{"id": "BENIGN_018", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #18]", "label": 0}
+{"id": "BENIGN_019", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #19]", "label": 0}
+{"id": "BENIGN_020", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #20]", "label": 0}
+{"id": "BENIGN_021", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #21]", "label": 0}
+{"id": "BENIGN_022", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #22]", "label": 0}
+{"id": "BENIGN_023", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #23]", "label": 0}
+{"id": "BENIGN_024", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #24]", "label": 0}
+{"id": "BENIGN_025", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #25]", "label": 0}
+{"id": "BENIGN_026", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #26]", "label": 0}
+{"id": "BENIGN_027", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #27]", "label": 0}
+{"id": "BENIGN_028", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #28]", "label": 0}
+{"id": "BENIGN_029", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #29]", "label": 0}
+{"id": "BENIGN_030", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #30]", "label": 0}
+{"id": "BENIGN_031", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #31]", "label": 0}
+{"id": "BENIGN_032", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #32]", "label": 0}
+{"id": "BENIGN_033", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #33]", "label": 0}
+{"id": "BENIGN_034", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #34]", "label": 0}
+{"id": "BENIGN_035", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #35]", "label": 0}
+{"id": "BENIGN_036", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #36]", "label": 0}
+{"id": "BENIGN_037", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #37]", "label": 0}
+{"id": "BENIGN_038", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #38]", "label": 0}
+{"id": "BENIGN_039", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #39]", "label": 0}
+{"id": "BENIGN_040", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #40]", "label": 0}
+{"id": "BENIGN_041", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #41]", "label": 0}
+{"id": "BENIGN_042", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #42]", "label": 0}
+{"id": "BENIGN_043", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #43]", "label": 0}
+{"id": "BENIGN_044", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #44]", "label": 0}
+{"id": "BENIGN_045", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #45]", "label": 0}
+{"id": "BENIGN_046", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #46]", "label": 0}
+{"id": "BENIGN_047", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #47]", "label": 0}
+{"id": "BENIGN_048", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #48]", "label": 0}
+{"id": "BENIGN_049", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #49]", "label": 0}
+{"id": "BENIGN_050", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #50]", "label": 0}
+{"id": "BENIGN_051", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #51]", "label": 0}
+{"id": "BENIGN_052", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #52]", "label": 0}
+{"id": "BENIGN_053", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #53]", "label": 0}
+{"id": "BENIGN_054", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #54]", "label": 0}
+{"id": "BENIGN_055", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #55]", "label": 0}
+{"id": "BENIGN_056", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #56]", "label": 0}
+{"id": "BENIGN_057", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #57]", "label": 0}
+{"id": "BENIGN_058", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #58]", "label": 0}
+{"id": "BENIGN_059", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #59]", "label": 0}
+{"id": "BENIGN_060", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #60]", "label": 0}
+{"id": "BENIGN_061", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #61]", "label": 0}
+{"id": "BENIGN_062", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #62]", "label": 0}
+{"id": "BENIGN_063", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #63]", "label": 0}
+{"id": "BENIGN_064", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #64]", "label": 0}
+{"id": "BENIGN_065", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #65]", "label": 0}
+{"id": "BENIGN_066", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #66]", "label": 0}
+{"id": "BENIGN_067", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #67]", "label": 0}
+{"id": "BENIGN_068", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #68]", "label": 0}
+{"id": "BENIGN_069", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #69]", "label": 0}
+{"id": "BENIGN_070", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #70]", "label": 0}
+{"id": "BENIGN_071", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #71]", "label": 0}
+{"id": "BENIGN_072", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #72]", "label": 0}
+{"id": "BENIGN_073", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #73]", "label": 0}
+{"id": "BENIGN_074", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #74]", "label": 0}
+{"id": "BENIGN_075", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #75]", "label": 0}
+{"id": "BENIGN_076", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #76]", "label": 0}
+{"id": "BENIGN_077", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #77]", "label": 0}
+{"id": "BENIGN_078", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #78]", "label": 0}
+{"id": "BENIGN_079", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #79]", "label": 0}
+{"id": "BENIGN_080", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #80]", "label": 0}
+{"id": "BENIGN_081", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #81]", "label": 0}
+{"id": "BENIGN_082", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #82]", "label": 0}
+{"id": "BENIGN_083", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #83]", "label": 0}
+{"id": "BENIGN_084", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #84]", "label": 0}
+{"id": "BENIGN_085", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #85]", "label": 0}
+{"id": "BENIGN_086", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #86]", "label": 0}
+{"id": "BENIGN_087", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #87]", "label": 0}
+{"id": "BENIGN_088", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #88]", "label": 0}
+{"id": "BENIGN_089", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #89]", "label": 0}
+{"id": "BENIGN_090", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #90]", "label": 0}
+{"id": "BENIGN_091", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #91]", "label": 0}
+{"id": "BENIGN_092", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #92]", "label": 0}
+{"id": "BENIGN_093", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #93]", "label": 0}
+{"id": "BENIGN_094", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #94]", "label": 0}
+{"id": "BENIGN_095", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #95]", "label": 0}
+{"id": "BENIGN_096", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #96]", "label": 0}
+{"id": "BENIGN_097", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #97]", "label": 0}
+{"id": "BENIGN_098", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #98]", "label": 0}
+{"id": "BENIGN_099", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #99]", "label": 0}
+{"id": "BENIGN_100", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #100]", "label": 0}
+{"id": "BENIGN_101", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #101]", "label": 0}
+{"id": "BENIGN_102", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #102]", "label": 0}
+{"id": "BENIGN_103", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #103]", "label": 0}
+{"id": "BENIGN_104", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #104]", "label": 0}
+{"id": "BENIGN_105", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #105]", "label": 0}
+{"id": "BENIGN_106", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #106]", "label": 0}
+{"id": "BENIGN_107", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #107]", "label": 0}
+{"id": "BENIGN_108", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #108]", "label": 0}
+{"id": "BENIGN_109", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #109]", "label": 0}
+{"id": "BENIGN_110", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #110]", "label": 0}
+{"id": "BENIGN_111", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #111]", "label": 0}
+{"id": "BENIGN_112", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #112]", "label": 0}
+{"id": "BENIGN_113", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #113]", "label": 0}
+{"id": "BENIGN_114", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #114]", "label": 0}
+{"id": "BENIGN_115", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #115]", "label": 0}
+{"id": "BENIGN_116", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #116]", "label": 0}
+{"id": "BENIGN_117", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #117]", "label": 0}
+{"id": "BENIGN_118", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #118]", "label": 0}
+{"id": "BENIGN_119", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #119]", "label": 0}
+{"id": "BENIGN_120", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #120]", "label": 0}
+{"id": "BENIGN_121", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #121]", "label": 0}
+{"id": "BENIGN_122", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #122]", "label": 0}
+{"id": "BENIGN_123", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #123]", "label": 0}
+{"id": "BENIGN_124", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #124]", "label": 0}
+{"id": "BENIGN_125", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #125]", "label": 0}
+{"id": "BENIGN_126", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #126]", "label": 0}
+{"id": "BENIGN_127", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #127]", "label": 0}
+{"id": "BENIGN_128", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #128]", "label": 0}
+{"id": "BENIGN_129", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #129]", "label": 0}
+{"id": "BENIGN_130", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #130]", "label": 0}
+{"id": "BENIGN_131", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #131]", "label": 0}
+{"id": "BENIGN_132", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #132]", "label": 0}
+{"id": "BENIGN_133", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #133]", "label": 0}
+{"id": "BENIGN_134", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #134]", "label": 0}
+{"id": "BENIGN_135", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #135]", "label": 0}
+{"id": "BENIGN_136", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #136]", "label": 0}
+{"id": "BENIGN_137", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #137]", "label": 0}
+{"id": "BENIGN_138", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #138]", "label": 0}
+{"id": "BENIGN_139", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #139]", "label": 0}
+{"id": "BENIGN_140", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #140]", "label": 0}
+{"id": "BENIGN_141", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #141]", "label": 0}
+{"id": "BENIGN_142", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #142]", "label": 0}
+{"id": "BENIGN_143", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #143]", "label": 0}
+{"id": "BENIGN_144", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #144]", "label": 0}
+{"id": "BENIGN_145", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #145]", "label": 0}
+{"id": "BENIGN_146", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #146]", "label": 0}
+{"id": "BENIGN_147", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #147]", "label": 0}
+{"id": "BENIGN_148", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #148]", "label": 0}
+{"id": "BENIGN_149", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #149]", "label": 0}
+{"id": "BENIGN_150", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #150]", "label": 0}
+{"id": "BENIGN_151", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #151]", "label": 0}
+{"id": "BENIGN_152", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #152]", "label": 0}
+{"id": "BENIGN_153", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #153]", "label": 0}
+{"id": "BENIGN_154", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #154]", "label": 0}
+{"id": "BENIGN_155", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #155]", "label": 0}
+{"id": "BENIGN_156", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #156]", "label": 0}
+{"id": "BENIGN_157", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #157]", "label": 0}
+{"id": "BENIGN_158", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #158]", "label": 0}
+{"id": "BENIGN_159", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #159]", "label": 0}
+{"id": "BENIGN_160", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #160]", "label": 0}
+{"id": "BENIGN_161", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #161]", "label": 0}
+{"id": "BENIGN_162", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #162]", "label": 0}
+{"id": "BENIGN_163", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #163]", "label": 0}
+{"id": "BENIGN_164", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #164]", "label": 0}
+{"id": "BENIGN_165", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #165]", "label": 0}
+{"id": "BENIGN_166", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #166]", "label": 0}
+{"id": "BENIGN_167", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #167]", "label": 0}
+{"id": "BENIGN_168", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #168]", "label": 0}
+{"id": "BENIGN_169", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #169]", "label": 0}
+{"id": "BENIGN_170", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #170]", "label": 0}
+{"id": "BENIGN_171", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #171]", "label": 0}
+{"id": "BENIGN_172", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #172]", "label": 0}
+{"id": "BENIGN_173", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #173]", "label": 0}
+{"id": "BENIGN_174", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #174]", "label": 0}
+{"id": "BENIGN_175", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #175]", "label": 0}
+{"id": "BENIGN_176", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #176]", "label": 0}
+{"id": "BENIGN_177", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #177]", "label": 0}
+{"id": "BENIGN_178", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #178]", "label": 0}
+{"id": "BENIGN_179", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #179]", "label": 0}
+{"id": "BENIGN_180", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #180]", "label": 0}
+{"id": "BENIGN_181", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #181]", "label": 0}
+{"id": "BENIGN_182", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #182]", "label": 0}
+{"id": "BENIGN_183", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #183]", "label": 0}
+{"id": "BENIGN_184", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #184]", "label": 0}
+{"id": "BENIGN_185", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #185]", "label": 0}
+{"id": "BENIGN_186", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #186]", "label": 0}
+{"id": "BENIGN_187", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #187]", "label": 0}
+{"id": "BENIGN_188", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #188]", "label": 0}
+{"id": "BENIGN_189", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #189]", "label": 0}
+{"id": "BENIGN_190", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #190]", "label": 0}
+{"id": "BENIGN_191", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #191]", "label": 0}
+{"id": "BENIGN_192", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #192]", "label": 0}
+{"id": "BENIGN_193", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #193]", "label": 0}
+{"id": "BENIGN_194", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #194]", "label": 0}
+{"id": "BENIGN_195", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #195]", "label": 0}
+{"id": "BENIGN_196", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #196]", "label": 0}
+{"id": "BENIGN_197", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #197]", "label": 0}
+{"id": "BENIGN_198", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #198]", "label": 0}
+{"id": "BENIGN_199", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #199]", "label": 0}
+{"id": "BENIGN_200", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #200]", "label": 0}
+{"id": "BENIGN_201", "category": "benign", "text": "Retrieval-Augmented Generation (RAG) improves LLM factual accuracy by fetching external documents. [Reference Document #201]", "label": 0}
+{"id": "BENIGN_202", "category": "benign", "text": "FAST-NUCES offers degree programs in Computer Science, Software Engineering, and Data Science. [Reference Document #202]", "label": 0}
+{"id": "BENIGN_203", "category": "benign", "text": "Photosynthesis is the biological process by which plants convert light energy into chemical energy. [Reference Document #203]", "label": 0}
+{"id": "BENIGN_204", "category": "benign", "text": "The Python programming language emphasizes code readability with its notable use of significant whitespace. [Reference Document #204]", "label": 0}
+{"id": "BENIGN_205", "category": "benign", "text": "Vector databases index high-dimensional embeddings using algorithms like HNSW and IVF-PQ. [Reference Document #205]", "label": 0}
+{"id": "BENIGN_206", "category": "benign", "text": "The quarterly financial report shows a 12 percent growth in cloud subscription revenues. [Reference Document #206]", "label": 0}
+{"id": "BENIGN_207", "category": "benign", "text": "Deep neural networks utilize backpropagation and stochastic gradient descent for parameter optimization. [Reference Document #207]", "label": 0}
+{"id": "BENIGN_208", "category": "benign", "text": "Information Security policies require multi-factor authentication and regular credential rotation. [Reference Document #208]", "label": 0}
+{"id": "BENIGN_209", "category": "benign", "text": "The city of Lahore is known for its rich history, Mughal architecture, and cultural landmarks. [Reference Document #209]", "label": 0}
+{"id": "BENIGN_210", "category": "benign", "text": "Microservices communicate using lightweight protocols such as REST APIs, gRPC, and message queues. [Reference Document #210]", "label": 0}
+{"id": "BENIGN_211", "category": "benign", "text": "Scikit-learn provides efficient tools for predictive data analysis and machine learning in Python. [Reference Document #211]", "label": 0}
+{"id": "BENIGN_212", "category": "benign", "text": "LangChain and LlamaIndex provide modular abstractions for building LLM and RAG pipelines. [Reference Document #212]", "label": 0}
+{"id": "BENIGN_213", "category": "benign", "text": "Standard operating procedures for customer service include verifying user identity before account updates. [Reference Document #213]", "label": 0}
+{"id": "BENIGN_214", "category": "benign", "text": "Supervised learning algorithms map an input to an output based on example input-output pairs. [Reference Document #214]", "label": 0}
+{"id": "BENIGN_215", "category": "benign", "text": "Docker containers package software with all required dependencies to ensure portability across environments. [Reference Document #215]", "label": 0}
+{"id": "BENIGN_216", "category": "benign", "text": "Relational database management systems rely on ACID properties to ensure transactional integrity. [Reference Document #216]", "label": 0}
+{"id": "BENIGN_217", "category": "benign", "text": "TCP provides reliable, ordered, and error-checked delivery of a stream of octets between computers. [Reference Document #217]", "label": 0}
+{"id": "BENIGN_218", "category": "benign", "text": "The human heart contains four chambers: two atria and two ventricles, pumping blood through circulation. [Reference Document #218]", "label": 0}
+{"id": "BENIGN_219", "category": "benign", "text": "Renewable energy sources such as wind, solar, and hydroelectricity reduce greenhouse gas emissions. [Reference Document #219]", "label": 0}
+{"id": "BENIGN_220", "category": "benign", "text": "Sorting algorithms such as Quicksort and Mergesort have an average-case time complexity of O(n log n). [Reference Document #220]", "label": 0}
