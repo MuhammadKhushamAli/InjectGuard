@@ -9,7 +9,8 @@ from typing import Any
 INJECTION_PATTERNS = [
     r"(?i)\bignore\s+(all\s+)?(previous|prior|above)\s+instructions\b",
     r"(?i)\bsystem\s+override\b",
-    r"(?i)\bdisregard\s+(all\s+)?(previous|prior)\s+rules\b",
+    r"(?i)\bdisregard\s+(all\s+)?(previous|prior\s+)?rules\b",
+    r"(?i)\bdeveloper\s+privileges\b",
     r"(?i)\breveal\s+(the\s+)?(system\s+prompt|secret|api[_\s-]?key|credentials)\b",
     r"(?i)\byou\s+are\s+now\s+(in\s+developer\s+mode|dan|an\s+unrestricted\s+ai)\b",
     r"(?i)\bexfiltrat(e|ion)\b",
