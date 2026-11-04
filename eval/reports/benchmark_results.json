@@ -1,0 +1,62 @@
+[
+  {
+    "layer": "Layer 1: Sanitiser",
+    "total_samples": 440,
+    "tp": 45,
+    "fp": 11,
+    "tn": 209,
+    "fn": 175,
+    "accuracy": 0.5773,
+    "precision": 0.8036,
+    "recall": 0.2045,
+    "f1": 0.3261,
+    "fpr": 0.05,
+    "avg_latency_ms": 0.036,
+    "p95_latency_ms": 0.041
+  },
+  {
+    "layer": "Layer 2: Rules & Heuristics",
+    "total_samples": 440,
+    "tp": 97,
+    "fp": 0,
+    "tn": 220,
+    "fn": 123,
+    "accuracy": 0.7205,
+    "precision": 1.0,
+    "recall": 0.4409,
+    "f1": 0.612,
+    "fpr": 0.0,
+    "avg_latency_ms": 0.053,
+    "p95_latency_ms": 0.078
+  },
+  {
+    "layer": "Layer 3: ML Logistic Regression",
+    "total_samples": 440,
+    "tp": 173,
+    "fp": 65,
+    "tn": 155,
+    "fn": 47,
+    "accuracy": 0.7455,
+    "precision": 0.7269,
+    "recall": 0.7864,
+    "f1": 0.7555,
+    "fpr": 0.2955,
+    "avg_latency_ms": 1.151,
+    "p95_latency_ms": 1.938
+  },
+  {
+    "layer": "Combined Pipeline (All Layers)",
+    "total_samples": 440,
+    "tp": 210,
+    "fp": 65,
+    "tn": 155,
+    "fn": 10,
+    "accuracy": 0.8295,
+    "precision": 0.7636,
+    "recall": 0.9545,
+    "f1": 0.8485,
+    "fpr": 0.2955,
+    "avg_latency_ms": 0.689,
+    "p95_latency_ms": 1.437
+  }
+]
